@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medifit</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <!-- style css  -->
+    <link rel="stylesheet" href="../style.css">
+    <!-- fontawesome cdn  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- font share  -->
+     <link href="https://api.fontshare.com/v2/css?f[]=telma@300,400,500,700,900,1&f[]=tabular@300,301,400,401,500,501,600,601,700,701,1,2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../main.css">
+    </head>
+<body>
+        <div id="cart" class="cart d-flex justify-content-center align-items-between flex-column bg-white">
+      <div class="top">
+                <div class="logo d-flex justify-content-between align-items-center">
+          <img src="../img/logo 2.svg" alt="" />
+          <h4 class="d-inline-block">Medifit</h4>
+        </div>
+      </div>
+      <div class="content" id="cart_content">
+        
+      </div>
+      <div class="close">
+        <div id="close" class="btn">close</div>
+        <div class="btn total">Total <sapn id="total">0</sapn>$</div>
+      </div>
+    </div>
+    <header>
+        <div class="container d-flex justify-content-between align-items-center m-auto">
+        <div class="logo d-flex justify-content-between align-items-center">
+            <img src="../img/logo 2.svg" alt="">
+            <h4 class="d-inline-block">Medifit</h4>
+        </div>
+        <nav>
+            <ul class="list-unstyled d-flex justify-content-between alidn-items-center ">
+                <li class="mx-4 my-3"><a class="active text-decoration-none fs-5 " href="index.html">home</a></li>
+                <li class="mx-4 my-3"><a class="text-decoration-none fs-5 " href="shop.html">shop</a></li>
+                <li class="mx-4 my-3"><a class="text-decoration-none fs-5 " href="about.html">about</a></li>
+                <li class="mx-4 my-3"><a class="text-decoration-none fs-5 " href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+        <div class="icons d-flex justify-content-between align-items-center">
+            <i class="fa-solid fa-bars" id="bars" ></i>
+            <i class="fa-solid fa-magnifying-glass mx-2"></i>
+            <a href="shop.html" class="text-black"><i class="fa-solid fa-cart-shopping"></i></a>
+            <span id="lenght" class="text-black-50"></span>
+
+        </div>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="container">
+            <div class="d-flex hero-content justify-content-between align-items-center">
+                <div class="content ">
+                    <h1 class="w-lg-75 w-100  my-4 pt-5"></h1>
+                    <p class="text-black-50">For the best results, align your health needs with your medication plan.</p>
+                    <a href="shop.html" class="btn">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <p class="d-inline">Shop Now</p>
+                    </a>
+                </div>
+                <div class="img d-none d-md-inline-block">
+                    <img src="../img/hero.svg" alt="">
+                
+                </div>
+            </div>
+        </div>
+        </div>
+    <section class="bg-white small mt-lg-3">
+        <div class="container p-auto">
+            <div class="heading w-100 mt-5 text-center">
+                <h2>Shop by Category</h2>
+            </div>
+            <div class="row text-center gx-5">
+                <div class="col-md-4 col-lg-2">
+
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <img src="../img/f1.png" alt="">
+                    <p>Medicine</p>
+                    <span class="text-black-50">32 Items</span>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <img src="../img/f2.png" alt="">
+                    <p>Health care</p>
+                    <span class="text-black-50">20 Items</span>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <img src="../img/f3.png" alt="">
+                    <p>Beauty care</p>
+                    <span class="text-black-50">30 Items</span>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <img src="../img/f4.png" alt="">
+                    <p>Fitness</p>
+                    <span class="text-black-50">35 Items</span>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <img src="../img/f5.png" alt="">
+                    <p>Lab equipment</p>
+                    <span class="text-black-50">25 Items</span>
+                </div>
+                <div class="col-md-4 col-lg-2 last">
+                    <img src="../img/f6.png" alt="">
+                    <p>Medkits</p>
+                    <span class="text-black-50">25 Items</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-home mt-3">
+        <div class="conatiner">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4 product bg-white d-flex align-items-center justify-content-between">
+                    <div class="content">
+                        <div class="btn">Sanitizer</div>
+                        <h3>Hand sanitizer collection </h3>
+                        <p>Shop Now</p>
+                    </div>
+                    <img src="../img/product1.png" alt="">
+                </div>
+                <div class="col-md-6 col-lg-4 product bg-white d-flex align-items-center justify-content-between">
+                                        <div class="content text-left">
+                        <div class="btn">Top deals</div>
+                        <h3>Face wash sale collection</h3>
+                        <p>Discover now</p>
+                    </div>
+                    <img src="../img/product2.png" alt="">
+                </div>
+                <div class="col-md-6 col-lg-4 product bg-white d-flex align-items-center justify-content-between">
+                                        <div class="content">
+                        <div class="btn">Face mask</div>
+                        <h3>Facial mask deals save up to 50%</h3>
+                        <p>Discover now</p>
+                    </div>
+                    <img src="../img/product3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="latest">
+    <div class="heading container w-100 text-center ">
+        <h2>Latest health product</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3 p ">
+                <div class="img">
+                    <img src="../img/pl1.svg" alt="">
+                    <div class="shop"><i class="fa-solid fa-cart-shopping"></i> Shop Now</div>
+                </div>
+                <h3 class="text-center fs-5 my-3" >Microscope</h3>
+                <div class="text-center text-black-50">$45.00 USD</div>
+            </div>
+            <div class="col-md-6 col-lg-3 p ">
+                                <div class="img">
+                    <img src="../img/pl2.svg" alt="">
+                    <div class="shop"><i class="fa-solid fa-cart-shopping"></i> Shop Now</div>
+                </div>
+                   <h3 class="text-center fs-5 my-3" >Pulse oximeter</h3>
+                   <div class="text-center text-black-50">$19.00 USD  <span>$25.00 USD</span></div>
+            </div>
+            <div class="col-md-6 col-lg-3 p ">
+                                <div class="img">
+                    <img src="../img/pl3.svg" alt="">
+                    <div class="shop"><i class="fa-solid fa-cart-shopping"></i> Shop Now</div>
+                </div>
+                   <h3 class="text-center fs-5 my-3" >Vitamin serum</h3>
+                   <div class="text-center text-black-50">$20.00 USD <span> $30.00 USD</span></div>
+            </div>
+            <div class="col-md-6 col-lg-3 p ">
+                                <div class="img">
+                    <img src="../img/pl4.svg" alt="">
+                    <div class="shop"><i class="fa-solid fa-cart-shopping"></i> Shop Now</div>
+                </div>
+                   <h3 class="text-center fs-5 my-3" >High protein </h3>
+                    <div class="text-center text-black-50">$50.00 USD</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="latest explore">
+    <div class=" container heading w-100 text-center ">
+        <h2>Explore Our store Collection</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3 p ">
+                <div class="img">
+                    <img  src="../img/e1.svg" alt="">
+                    <div class="shop"><i class="fa-solid fa-cart-shopping"></i> Shop Now</div>
+                </div>
+                <h3 class="text-center fs-5 my-3" >B12 medicine</h3>
+                <div class="text-center text-black-50">$19.00 USD <span>$25.00 USD</span></div>
+            </div>
+            <div class="col-md-6 col-lg-3 p ">
+                                <div class="img">
+                    <img src="../img/e2.svg" alt="">
+                    <div class="shop"><i class="fa-solid fa-cart-shopping"></i> Shop Now</div>
+                </div>
+                   <h3 class="text-center fs-5 my-3" >Tonometer</h3>
+                   <div class="text-center text-black-50">$19.00 USD</div>
+            </div>
+            <div class="col-md-6 col-lg-3 p ">
+                                <div class="img">
+                    <img src="../img/e3.svg" alt="">
+                    <div class="shop"><i class="fa-solid fa-cart-shopping"></i> Shop Now</div>
+                </div>
+                   <h3 class="text-center fs-5 my-3" >ECG cardiograph</h3>
+                   <div class="text-center text-black-50">$20.00 USD <span> $35.00 USD</span></div>
+            </div>
+            <div class="col-md-6 col-lg-3 p ">
+                                <div class="img">
+                    <img src="../img/e4.svg" alt="">
+                    <div class="shop"><i class="fa-solid fa-cart-shopping"></i> Shop Now</div>
+                </div>
+                   <h3 class="text-center fs-5 my-3" >Blood glucose meter </h3>
+                    <div class="text-center text-black-50">$15.00 USD</div>
+            </div>
+                        <div class="col-md-6 col-lg-3 p ">
+                                <div class="img">
+                    <img src="../img/e5.svg" alt="">
+                    <div class="shop"><i class="fa-solid fa-cart-shopping"></i> Shop Now</div>
+                </div>
+                   <h3 class="text-center fs-5 my-3" >Lab hand gloves</h3>
+                    <div class="text-center text-black-50">$20.00 USD <span>$35.00 USD</span></div>
+            </div>
+                        <div class="col-md-6 col-lg-3 p ">
+                                <div class="img">
+                    <img src="../img/e6.svg" alt="">
+                    <div class="shop"><i class="fa-solid fa-cart-shopping"></i> Shop Now</div>
+                </div>
+                   <h3 class="text-center fs-5 my-3" >Stethoscope </h3>
+                    <div class="text-center text-black-50">$20.00 USD <span>$35.00 USD</span></div>
+            </div>
+                        <div class="col-md-6 col-lg-3 p ">
+                                <div class="img">
+                    <img src="../img/e7.svg" alt="">
+                    <div class="shop"><i class="fa-solid fa-cart-shopping"></i> Shop Now</div>
+                </div>
+                   <h3 class="text-center fs-5 my-3" >Inhaler pressure drop </h3>
+                    <div class="text-center text-black-50">$35.00 USD</div>
+            </div>
+                        <div class="col-md-6 col-lg-3 p ">
+                                <div class="img">
+                    <img src="../img/e8.svg" alt="">
+                    <div class="shop"><i class="fa-solid fa-cart-shopping"></i> Shop Now</div>
+                </div>
+                   <h3 class="text-center fs-5 my-3" >Multi vitamin</h3>
+                    <div class="text-center text-black-50">$20.00 USD</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="discount my-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-md-6">
+                <div class="img">
+                    <img src="../img/woman.svg">
+                </div>
+            </div>
+            <div class="col">
+                <div class="content bg-white">
+                    <p class="text-center fs-4 pt-5 pb-3">Join our newsletter</p>
+                    <h2 class="text-center fs-1 pb-5">Sign Up for an Instant 15% Discount</h2>
+                    <div class="d-flex email-btn justify-content-between align-items-center w-100">
+                        <div class="email w-75">
+                            <i class="fa-solid fa-envelope d-inline-block "></i>
+                            <input type="email" placeholder="Enter email" class="d-inline-block w-75 ">
+                        </div>
+                        <div class="btn">
+                            <i class="fa-solid fa-arrow-right-to-bracket d-inline-block"></i>
+                            <p class="d-inline-block">Sign up</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="clients">
+    <div class="container">
+        <div class="heading text-center my-3">
+            <h2>Our happy clients</h2>
+        </div>
+        <div class="text bg-white m-auto w-75 my-5 px-5 py-3 fs-5">
+            <p class="active">(1) :  I’m so impressed with this online medical store. The product selection is extensive and the prices are great. I found everything i needed in one place. The ordering process was easy, delivery was prompt, and the items arrived in perfect condition. Plus, the customer service team was incredibly helpful.</p>
+            <p>(2) :  Overall, I am truly satisfied with my purchase and my overall experience with this online medical store, and I will definitely be coming back for future orders as well as recommending it to my family and friends.</p>
+            <p>(3) :  The delivery process was surprisingly efficient, arriving even faster than I had anticipated, and the entire experience of receiving my order felt smooth, professional, and hassle-free from start to finish.</p>
+            <p>(4) :  The website was extremely user-friendly and well-organized, which made it very simple for me to browse through the categories and quickly find all the medical products I needed without any confusion.</p>
+        </div>
+        <div class="container">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-3">
+                <div class="client active d-flex justify-content-between align-items-center">
+                    <div class="img">
+                        <img src="../img/m1.svg" alt="">
+                    </div>
+                    <div class="name">
+                        <h3 class="h5">James Wilson</h3>
+                        <p  class="text-center fs-6 text-black-50">Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                                <div class="client d-flex justify-content-between align-items-center">
+                    <div class="img">
+                        <img src="../img/m2.svg" alt="">
+                    </div>
+                    <div class="name">
+                        <h3 class="h5">Henry Adams</h3>
+                        <p  class="text-center fs-6 text-black-50">CEO</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                                <div class="client d-flex justify-content-between align-items-center">
+                    <div class="img">
+                        <img src="../img/m3.svg" alt="">
+                    </div>
+                    <div class="name">
+                        <h3 class="h5">Ethan Harris</h3>
+                        <p  class="text-center fs-6 text-black-50">Business manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                                <div class="client d-flex justify-content-between align-items-center">
+                    <div class="img">
+                        <img src="../img/m4.svg" alt="">
+                    </div>
+                    <div class="name">
+                        <h3 class="h5">Lily Baker</h3>
+                        <p class="text-center fs-6 text-black-50">Product manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-5">
+                <h3>pages</h3>
+                <p>Home</p>
+                <p>Shop</p>
+                <p>About</p>
+                <p>Contact</p>
+                <p>Blog</p>
+                <p>Privacy policy</p>
+                <p>FAQs</p>
+            </div>
+            <div class="col-lg-2 col-md-5">
+                <h3>Utility</h3>
+                <p>Style guide</p>
+                <p>Instruction</p>
+                <p>Changelog</p>
+                <p>Licenses</p>
+                <p>Link in bio</p>
+                <p>Error 404</p>
+                <p>Password protected</p>
+            </div>
+            <div class="col-md-6 logo-footer col-lg-5 ms-5 mt-5">
+                <h3 class=" w-50 fs-1"> <img src="../img/logo 2.svg" alt=""> Medifit</h3>
+                <p class="w-50 text-center mb-5">We provides the ultimate solution for your online store and all the healthcare needs.</p>
+                <div class="icon w-50  ">
+                    <i class="fa-brands fa-facebook fs-4 mx-1"></i>
+                    <i class="fa-brands fa-instagram fs-4 mx-1"></i>
+                    <i class="fa-brands fa-twitter fs-4 mx-1"></i>
+                    <i class="fa-brands y fa-youtube fs-4 mx-1"></i>
+                </div>
+            </div>
+            <div class="col ad">
+                <div class="addres">
+                    <h3>Address</h3>
+                    <p class="w-100 text-center"><i class="fa-solid fa-location-dot"></i> 1640 Parker Rd. Allentown, New Mexico 31134</p>
+                </div>
+                <div class="contact mt-5">
+                    <h3>Contact</h3>
+                    <p><i class="fa-solid fa-envelope"></i> hello@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> (209) 555-0104</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+        <!-- main js  -->
+         <script src="../main.js"></script>
+</body>
+</html>
